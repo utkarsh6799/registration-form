@@ -17,9 +17,10 @@
 <div class="header">
     <h1>Registration</h1>
 </div>
+
         <form class="fit">
                 <div id="post" class="form-group col-md-2">
-                <label for="inputPost">Post</label>
+                <label id="post1" for="inputPost">Post</label>
                 <input id="post" class="form-control" type="text" name="Post" placeholder="Post applied for"/>
               </div>
               <span id="err_post"></span>
@@ -97,15 +98,14 @@
                    <span id="err_post"></span>
                    <div class="form-group col-md-4">
                         <p>Gender</p>
-                            <div class="custom-control custom-radio custom-control-inline ">
-                                    <input type="radio" name="Gender" value="Male"  class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadioInline1">Male</label>
-                                  </div>
-                                  
-                                  <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" name="Gender" value="Female"  class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadioInline2">Female</label>
-                                  </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline1">Male</label>
+                          </div>
+                          <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline2">Female</label>
+                          </div>
                                   
                                   </div>
                                   <span id="err_post"></span>
@@ -126,14 +126,14 @@
                     <div class="form-row">
                             <div class="form-group col-md-4">
                                 <p>Relationship</p>
-                                    <div class="custom-control custom-radio custom-control-inline ">
-                                            <input type="radio" name="Gender" value="Male" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadioInline1">Married</label>
-                                          </div>
-                                          <div class="custom-control custom-radio custom-control-inline">
-                                            <input type="radio" name="Gender" value="Female" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadioInline2">Un-Married</label>
-                                          </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Married</label>
+                                  </div>
+                                  <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline2">Un-Married</label>
+                                  </div>
                             </div>
                             <span id="err_post"></span>
                             <div class="form-group col-md-4">
@@ -147,20 +147,20 @@
                         <br>
                         <br>
                         
-                        <p>Qualifications</p>
+                            <p class="para">Qualifications</p>
 
                        
                               <table>
          
-                                    <tr>
+                                    <tr class="headings">
                                    
-                                    <td align="center"><b>Examination</b></td>
-                                    <td align="center"><b>Name of College</b></td>
-                                    <td align="center"><b>Educational Board</b></td>
-                                    <td align="center"><b>Regular/Distance</b></td>
-                                    <td align="center"><b>Year of Passing</b></td>
-                                    <td align="center"><b>Medium of Instructions</b></td>
-                                    <td align="center"><b>Div. & Percentage of Marks</b></td>
+                                    <td align="center">Examination</td>
+                                    <td align="center">Name of College</td>
+                                    <td align="center">Educational Board</td>
+                                    <td align="center">Regular/Distance</td>
+                                    <td align="center">Year of Passing</td>
+                                    <td align="center">Medium of Instructions</td>
+                                    <td align="center">Div. & Percentage of Marks</td>
                                     </tr>
                                      
                                     <tr>
@@ -235,7 +235,7 @@
                                     </tr>
                                     <br>
                                     <br>
-                        <p>Publications</p>
+                        <p id="para1" class="para">Publications</p>
                         <div class="form-row">
                             
                                 <div class="form-group col-md-2">
@@ -254,7 +254,7 @@
                         <div class="form-row">
                             
                                 <div class="form-group col-md-2">
-                                        <label for="inputNumber7">National Conferences</label>
+                                        <label for="inputNumber7">NationalConferences</label>
                                         <input type="number" class="form-control" name="nconference" placeholder="National Conferences">
                                 </div>
                                 
@@ -268,7 +268,7 @@
                         <span id="err_post"></span>
                         <br>
                         <br>
-                        <p>Expierence</p>
+                        <p id="para1" class="para">Expierence</p>
                         <div class="form-row">
                             
                                 <div class="form-group col-md-2">
@@ -287,5 +287,6 @@
             
                 <button type="submit" name="submit" value="Submit" class="btn btn-primary">Submit</button>
               </form>
+            
 
               </body>

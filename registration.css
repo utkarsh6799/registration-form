@@ -5,11 +5,12 @@ body{
 
 }
 .fit{
-  margin-left: 5%;
-  margin-bottom: 5%;
-  margin-right: 5%;
+  padding-left: 15%;
+  padding-bottom: 5%;
+  padding-right: 5%;
   background-color: bisque;
 }
+
 .header{
   background-color: lightskyblue;
   padding: 8%;
@@ -30,11 +31,40 @@ body{
   margin: 2%;
 }
 #post{
-  /* margin-left: 10px; */
+  margin-left: 5px;
+}
+#post1{
+  margin-left: 6px;
+  padding-top: 15%;
 }
 .btn {
   margin-left: 10%;
   margin-bottom: 5%;
   margin-top: 5%;
 
+}
+label{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: blue;
+}
+p{
+  color: blue;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  
+  
+}
+.para{
+  margin-left: 25px;
+  
+}
+#para1{
+  margin-bottom: -5px;
+}
+.headings td{
+  color: blue;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  
 }
