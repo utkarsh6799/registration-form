@@ -1,14 +1,40 @@
-table{
-    font-family: Calibri; 
-    color:white; 
-    font-size: 11pt; 
-    font-style: normal;
-    font-weight: bold;
-     
-    background-color: SlateBlue; 
-    border-collapse: collapse; 
-    
-  }
-  table.inner{
-    border: 0px
-  }
+body{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+
+}
+.fit{
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  background-color: bisque;
+}
+.header{
+  background-color: lightskyblue;
+  padding: 8%;
+}
+.header h1{
+  margin-left: 8%;
+  font-size: 75px;
+}
+.col-md-4{
+  margin: 2%;
+}
+.col-md-2{
+  margin: 2%;
+  
+}
+.col-1{
+  
+  margin: 2%;
+}
+#post{
+  /* margin-left: 10px; */
+}
+.btn {
+  margin-left: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+
+}
